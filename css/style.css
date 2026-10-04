@@ -1002,6 +1002,33 @@ a { transition: var(--transition); }
 
 .footer-bottom .heart { color: var(--color-accent); }
 
+.footer-bottom .sep { opacity: 0.45; margin: 0 0.15rem; }
+
+.footer-bottom a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover { color: var(--color-accent); }
+
+/* ----------  PAGE LÉGALE  ---------- */
+.legal-body h2 {
+    font-size: 1.35rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.85rem;
+}
+
+.legal-body h2:first-child { margin-top: 0; }
+
+.legal-body p,
+.legal-body li { color: var(--color-text-light); }
+
+.legal-body ul { padding-left: 1.25rem; }
+
+.legal-body li { margin-bottom: 0.35rem; }
+
+.legal-body a { color: var(--color-accent-dark); }
+
 /* ----------  FLOATING WHATSAPP  ---------- */
 .whatsapp-floating {
     position: fixed;
